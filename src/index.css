@@ -1,0 +1,90 @@
+body
+{
+  background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 100%);
+  
+}
+
+main
+{
+  display: flex;
+  justify-content: center;
+}
+
+.grid
+{
+  display: block;
+  background-color: rgb(225, 225, 225);
+  width:100px;
+  height: 100px;
+  border-radius: 15px;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.grids 
+{
+  display: grid;
+  grid-template-columns: repeat(5,100px);
+  gap: 20px;
+}
+
+.gridcontainer
+{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 250px;
+  width: 95%;
+  height: 95%;
+  margin: 50px;
+  border-radius: 40px;
+}
+
+.RollButton
+{
+  position: absolute;
+  top:550px;
+  left: 40%;
+  width: 300px;
+  height: 100px;
+  display: block;
+  background-color: rgb(9, 95, 216);
+  border-radius: 15px;
+  font-size: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+
+}
+
+.grid.held
+{
+  background-color: rgb(77, 226, 27);
+  
+}
+
+.wintext
+{
+  width: 4000px;
+  position: absolute;
+  left: 38%;
+  top: 62%;
+  font-size: 50px;
+  font-family: "Edu NSW ACT Cursive", cursive;
+
+}
+
+h1
+{
+  position: absolute;
+  top: 0px;
+  font-size:90px;
+  font-family: "Inter", sans-serif;
+}
+p
+{
+  position: absolute;
+  top: 175px;
+  font-size: 30px;
+  font-family: "Love Ya Like A Sister", cursive;
+
+}
